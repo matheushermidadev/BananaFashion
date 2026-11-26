@@ -1,3 +1,15 @@
+@font-face {
+    font-family:'KG' ;
+    src: url(../fonts/KGPerfectPenmanship.otf), url(../fonts/KGPerfectPenmanship.ttf);
+}
+
+h1{
+    font-family: 'KG';
+}
+
+.so{
+    font-family: 'KG';
+}
 
 body {
     margin: 0;
@@ -135,6 +147,16 @@ img {
     font-weight: bold;
 }
 
+.formulario{
+    width: 55%;
+    background-color: #F2E7C4;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    
+
+}
+
 .secao {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -164,7 +186,6 @@ img {
 .link:hover {
     color: #78A633;
 }
-
 .card-produto {
     border: 1px solid #E9E1D1;
     border-radius: 15px;
@@ -179,7 +200,6 @@ img {
 .card-produto img {
     width: 100%;
     height: 260px;
-    object-fit: cover;
 }
 
 .card-produto .card-body {
@@ -203,21 +223,9 @@ img {
 }
 
 .preco {
-    color: #26170A !important;
+    color: #26170A;
     font-size: 20px;
     font-weight: bold;
-}
-
-.botao-card {
-    color: #26170A;
-    border: 1px solid #26170A;
-    border-radius: 20px;
-    text-decoration: none;
-}
-
-.botao-card:hover {
-    background-color: #26170A;
-    color: white;
 }
 
 .chamada {
@@ -266,12 +274,6 @@ img {
     margin-bottom: 30px;
 }
 
-.aviso {
-    color: #71695D;
-    font-size: 13px;
-    margin-top: 20px;
-}
-
 .sobre-conteudo {
     display: flex;
     align-items: center;
@@ -309,6 +311,10 @@ img {
 .valores {
     background-color: #F2E7C4;
     padding: 60px 0;
+}
+
+.card{
+    text-align: center;
 }
 
 .valor {
@@ -363,29 +369,6 @@ img {
 .info h3 {
     font-size: 18px;
     font-weight: bold;
-}
-
-.formulario {
-    width: 55%;
-    background-color: #F2E7C4;
-    padding: 30px;
-    border-radius: 15px;
-}
-
-.formulario h2 {
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-
-.form-label {
-    font-weight: bold;
-}
-
-.form-control,
-.form-select {
-    padding: 10px;
-    border: 1px solid #8C651C;
-    border-radius: 8px;
 }
 
 .rodape {
